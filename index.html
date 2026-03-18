@@ -1,29 +1,83 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Article 26</title>
-<style>
-  :root { --bg:#0b1020; --fg:#e5e7eb; --card:#0f172a; }
-  html,body { margin:0; padding:0; background:var(--bg); color:var(--fg); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
-  .section { max-width: 900px; margin: 0 auto; padding: 14px; }
-  img { width: 100%; height: auto; display:block; border-radius: 16px; }
-  .video-wrap { position: relative; width:100%; border-radius:16px; overflow:hidden; background:#000; }
-  .video-wrap::before { content:""; display:block; padding-top: 56.25%; }
-  .video-wrap iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:0; }
-  .spacer { height: 16px; }
-  .insta-grid { display:grid; grid-template-columns: 1fr; gap:12px; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Article 26</title>
+  <style>
+    :root {
+      --bg: #6cc4ed;
+      --fg: #e5e7eb;
+      --card: #0f172a;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      background-image:url("bubble.png") ;
+      color: var(--fg);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 14px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 16px;
+    }
+
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #000;
+    }
+
+    .video-wrap::before {
+      content: "";
+      display: block;
+      padding-top: 56.25%;
+    }
+
+    .video-wrap iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .spacer {
+      height: 16px;
+    }
+
+    .insta-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+  </style>
 </head>
+
 <body>
   <div class="section">
     <img src="hero-logo.jpg" alt="Your Logo Here">
     <div class="spacer"></div>
 
     <div class="video-wrap">
-      <iframe src="https://www.youtube.com/embed/R5-ebVfhdOA"
-        title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      <iframe src="https://www.youtube.com/embed/R5-ebVfhdOA" title="YouTube video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </div>
     <div class="spacer"></div>
@@ -56,4 +110,5 @@
     </div>
   </div>
 </body>
+
 </html>
